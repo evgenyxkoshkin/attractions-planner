@@ -95,7 +95,7 @@ const Home = observer(() => {
 
       {/* Ссылка на режим администратора */}
       <Link to="/admin">
-        <Button view="action" style={{ marginTop: '24px' }}>
+        <Button view="action" style={{ margin: '24px 0 24px 0' }}>
           Режим администратора
         </Button>
       </Link>
