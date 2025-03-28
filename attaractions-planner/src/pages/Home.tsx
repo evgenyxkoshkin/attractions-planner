@@ -64,6 +64,19 @@ const Home = observer(() => {
             { id: "status", name: "Статус" },
             { id: "rating", name: "⭐ Рейтинг" },
             { id: "map", name: "Карта" },
+            {
+                id: "photo",
+                name: "Фото",
+                template: (item) => (
+                  <img
+                    src={item.imageUrl}
+                    alt={item.name}
+                    width={100}
+                    height={50}
+                    style={{ borderRadius: 4, objectFit: "cover" }}
+                  />
+                ),
+              },
           ]}
           data={filteredPlaces.map((place) => {
             const { googleMapsLink, yandexMapsLink } = generateMapLinks(place.latitude, place.longitude);

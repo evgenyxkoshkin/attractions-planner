@@ -13,13 +13,13 @@
   - Vite как сборщик
   - Tailwind CSS для стилизации
 - **API:**
-  - RESTful API для управления данными (с документацией)
+  - RESTful API для управления данными [Документация](./attaractions-planner/docs/API.md)  
 
 ## Запуск проекта
 
 1. Клонируйте репозиторий:
    ```bash
-   git clone https://github.com/evgenyxkoshkin/attaractions-planner.git
+   git clone https://github.com/evgenyxkoshkin/attractions-planner.git
    ```
 2. Установите зависимости:
    ```bash
